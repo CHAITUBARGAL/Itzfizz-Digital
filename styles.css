@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #333;
+}
+
+header p {
+    font-size: 18px;
+    margin: 0;
+    color: #777;
+}
+
+.contact h2,
+.education h2,
+.experience h2,
+.projects h2,
+.skills h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-item {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #555;
+}
+
+.education-item h3,
+.experience-item h3,
+.project-item h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.education-item p,
+.experience-item p,
+.project-item p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #555;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
